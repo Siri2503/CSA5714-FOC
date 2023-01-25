@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int n;
+	printf("Enter the hex value: ");
+	scanf("%x",&n);
+	printf("The decimal value is: %d",n);
+	return 0;
+}
+
+OUTPUT:-
+Enter the hex value: A96
+The decimal value is: 2710
