@@ -1,0 +1,26 @@
+#!/bin/bash
+echo "Enter 1st number:"
+read a
+echo "Enter 2nd number:"
+read b
+echo "Enter 3rd number:"
+read c
+if [ $a -gt $b ] && [ $a -gt $c ]
+then
+	echo "The greatest of given three numbers is" $a
+elif [ $a -gt $b ] && [ $a -gt $c ]
+then
+  echo"The greatest of given three numbers is" $b
+else
+	echo "The greatest of given three numbers is" $c
+fi
+
+OUTPUT:-
+Enter 1st number:
+45
+Enter 2nd number:
+343
+Enter 3rd number:
+23
+The greatest of given three numbers is
+343
