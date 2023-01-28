@@ -1,0 +1,9 @@
+#!/bin/bash
+echo "Enter a number"
+raed a
+sq='expr $a \* $a'
+echo "The square of the given number is" $sq
+
+OUTPUT:-
+Enter a number 4
+The square of the given number is 16
