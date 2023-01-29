@@ -1,0 +1,15 @@
+echo "enter a string "
+read a
+echo "enter another string "
+read b
+a+=$b
+echo "concatenate string is "$a
+n=${#a}
+echo"$n"
+
+OUTPUT:
+enter a string:this is 
+enter another string:a book
+concatenate string is this is a book
+Length of string : 11
+
