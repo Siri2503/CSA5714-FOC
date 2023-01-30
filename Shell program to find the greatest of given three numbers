@@ -1,17 +1,17 @@
-echo "Enter 1st number:"
-read a
-echo "Enter 2nd number:"
+echo "Enter the first number"
+read a 
+echo "Enter the second number"
 read b
-echo "Enter 3rd number:"
+echo "Enter the third number"
 read c
-if [ $a -gt $b ] && [ $a -gt $c ]
+if [ $a -gt $b] && [$num1 -gt $c]
 then
-	echo "The greatest of given three numbers is" $a
-elif [ $a -gt $b ] && [ $a -gt $c ]
+echo $a
+elif [$b -gt $a] && [$b - gt $c]
 then
-  echo"The greatest of given three numbers is" $b
+echo $b
 else
-	echo "The greatest of given three numbers is" $c
+echo $c
 fi
 
 OUTPUT:-
